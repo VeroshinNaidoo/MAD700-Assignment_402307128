@@ -1,3 +1,56 @@
 <resources>
-    <string name="app_name">402307128_SmartPantryManager</string>
+    <string name="app_name">Smart Pantry Manager</string>
+    <!--  Navigation  -->
+    <string name="nav_pantry">Pantry</string>
+    <string name="nav_suggestions">Suggestions</string>
+    <string name="nav_settings">Settings</string>
+    <!--  Pantry  -->
+    <string name="pantry_title">My Pantry</string>
+    <string name="add_ingredient">Add Ingredient</string>
+    <string name="edit_ingredient">Edit Ingredient</string>
+    <string name="delete_ingredient">Delete</string>
+    <string name="ingredient_name">Ingredient Name</string>
+    <string name="quantity">Quantity</string>
+    <string name="unit">Unit</string>
+    <string name="expiry_date">Expiry Date (optional)</string>
+    <string name="save">Save</string>
+    <string name="cancel">Cancel</string>
+    <string name="delete_confirm_title">Delete Ingredient</string>
+    <string name="delete_confirm_message">Are you sure you want to delete this ingredient?</string>
+    <string name="yes">Yes</string>
+    <string name="no">No</string>
+    <string name="empty_pantry">Your pantry is empty. Add some ingredients to get started!</string>
+    <string name="expiring_soon">Expiring soon</string>
+    <!--  Validation  -->
+    <string name="error_empty_name">Ingredient name cannot be empty</string>
+    <string name="error_invalid_quantity">Please enter a valid positive quantity</string>
+    <string name="error_empty_unit">Please select a unit</string>
+    <!--  Recipes  -->
+    <string name="suggested_recipes_title">Suggested Recipes</string>
+    <string name="no_recipes_match">No recipes match your pantry yet – add more ingredients</string>
+    <string name="recipe_detail">Recipe Details</string>
+    <string name="ingredients">Ingredients</string>
+    <string name="method">Method</string>
+    <string name="can_make">You can make this!</string>
+    <!--  Settings  -->
+    <string name="settings_title">Settings</string>
+    <string name="expiring_soon_alerts">Expiring Soon Alerts</string>
+    <string name="expiring_soon_desc">Highlight ingredients expiring within 3 days</string>
+    <string name="units_preference">Preferred Units</string>
+    <string name="metric">Metric</string>
+    <string name="imperial">Imperial</string>
+    <!--  Units  -->
+    <string-array name="units_array">
+        <item>g</item>
+        <item>kg</item>
+        <item>ml</item>
+        <item>l</item>
+        <item>tsp</item>
+        <item>tbsp</item>
+        <item>cup</item>
+        <item>pcs</item>
+        <item>pinch</item>
+        <item>clove</item>
+        <item>slice</item>
+    </string-array>
 </resources>
