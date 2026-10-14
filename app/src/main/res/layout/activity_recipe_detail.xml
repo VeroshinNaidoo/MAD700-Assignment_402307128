@@ -1,9 +1,56 @@
-<ScrollView xmlns:android="http://schemas.android.com/apk/res/android" xmlns:app="http://schemas.android.com/apk/res-auto" android:layout_width="match_parent" android:layout_height="match_parent" android:background="@color/background" android:fillViewport="true">
-    <LinearLayout android:layout_width="match_parent" android:layout_height="wrap_content" android:orientation="vertical" android:padding="20dp">
-        <TextView android:id="@+id/tv_detail_name" android:layout_width="match_parent" android:layout_height="wrap_content" android:textSize="24sp" android:textStyle="bold" android:textColor="@color/text_primary" android:text="Recipe Name"/>
-        <TextView android:layout_width="match_parent" android:layout_height="wrap_content" android:text="@string/ingredients" android:textSize="18sp" android:textStyle="bold" android:textColor="@color/primary" android:layout_marginTop="20dp"/>
-        <TextView android:id="@+id/tv_detail_ingredients" android:layout_width="match_parent" android:layout_height="wrap_content" android:textSize="15sp" android:textColor="@color/text_primary" android:lineSpacingExtra="4dp" android:layout_marginTop="8dp" android:text="• 2 pcs egg\n• 1 pcs tomato"/>
-        <TextView android:layout_width="match_parent" android:layout_height="wrap_content" android:text="@string/method" android:textSize="18sp" android:textStyle="bold" android:textColor="@color/primary" android:layout_marginTop="24dp"/>
-        <TextView android:id="@+id/tv_detail_method" android:layout_width="match_parent" android:layout_height="wrap_content" android:textSize="15sp" android:textColor="@color/text_primary" android:lineSpacingExtra="6dp" android:layout_marginTop="8dp" android:text="1. Step one\n2. Step two"/>
+<ScrollView
+    xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="@color/background"
+    android:fillViewport="true">
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:orientation="vertical"
+        android:padding="20dp">
+        <TextView
+            android:id="@+id/tv_detail_name"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:textSize="24sp"
+            android:textStyle="bold"
+            android:textColor="@color/text_primary"
+            android:text="Recipe Name"/>
+        <TextView
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:text="@string/ingredients"
+            android:textSize="18sp"
+            android:textStyle="bold"
+            android:textColor="@color/primary"
+            android:layout_marginTop="20dp"/>
+        <TextView
+            android:id="@+id/tv_detail_ingredients"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:textSize="15sp"
+            android:textColor="@color/text_primary"
+            android:lineSpacingExtra="4dp"
+            android:layout_marginTop="8dp"
+            android:text="• 2 pcs egg\n• 1 pcs tomato"/>
+        <TextView
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:text="@string/method"
+            android:textSize="18sp"
+            android:textStyle="bold"
+            android:textColor="@color/primary"
+            android:layout_marginTop="24dp"/>
+        <TextView
+            android:id="@+id/tv_detail_method"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:textSize="15sp"
+            android:textColor="@color/text_primary"
+            android:lineSpacingExtra="6dp"
+            android:layout_marginTop="8dp"
+            android:text="1. Step one\n2. Step two"/>
     </LinearLayout>
 </ScrollView>
